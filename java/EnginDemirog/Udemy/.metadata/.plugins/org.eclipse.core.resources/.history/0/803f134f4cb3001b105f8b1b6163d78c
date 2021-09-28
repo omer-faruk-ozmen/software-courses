@@ -1,0 +1,19 @@
+package readingFileDemo;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+public class Main {
+
+	public static void main(String[] args) {
+		try {
+			BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\OFO\\Desktop\\Desktop\\software\\java\\EnginDemirog\\Udemy\\readingFileDemo\\src\\sayilar.txt"));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

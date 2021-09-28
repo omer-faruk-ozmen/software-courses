@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Abone abone = new Abone();
+		abone.isim = "Ömer Faruk";
+		abone.bakiye=200;
+		abone.sehir="Kars";
+		abone.dogalgazKullan(120);
+		
+		GelismisAbone gelismisAbone = new GelismisAbone("Ömer Faruk Özmen", 200, "Kars");
+		gelismisAbone.bakiyeOgren();
+		gelismisAbone.dogalgazKullan(119);
+
+	}
+
+}

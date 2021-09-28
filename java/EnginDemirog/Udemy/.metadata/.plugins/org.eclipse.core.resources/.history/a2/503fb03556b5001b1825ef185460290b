@@ -1,0 +1,23 @@
+package repositoryDemo;
+
+public class CustomerDal implements IEntityRepository<T>{
+
+	@Override
+	public void add(T entity) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(T entity) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(T entity) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

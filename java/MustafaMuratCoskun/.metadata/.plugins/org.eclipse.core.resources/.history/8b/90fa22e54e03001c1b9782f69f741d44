@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class ATM {
+	public void calis(Hesap hesap) {
+		Login login = new Login();
+
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Bankamıza Hoşgeldiniz...");
+		System.out.println("Kullanıcı Girişi");
+
+		int girisHakki = 3;
+
+		while (true) {
+			if (login.login(hesap)) {
+				System.out.println("Giriş Başarılı...");
+				break;
+			} else {
+				System.out.println("Giriş Başarısız.");
+				girisHakki -= 1;
+				System.out.println("Kalan giriş hakkı " + girisHakki);
+			}
+		}
+	}
+
+}

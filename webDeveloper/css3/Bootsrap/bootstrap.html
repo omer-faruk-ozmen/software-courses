@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <style>
+        .box {
+            height: 200px;
+        }
+        
+        div span {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="container">
+        <h1>Container</h1>
+    </div> -->
+
+    <!-- Flexbox -->
+    <div class="d-flex align-items-center justify-content-end bg-dark" style="height:600px; width: 600px;">
+        <span></span>
+        <span class="align-self-end"></span>
+        <span></span>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="box bg-white"></div>
+        </div>
+    </div>
+
+
+    <!-- Alignment -->
+    <div class="row align-items-center justify-content-around bg-dark" style="height: 600px;">
+        <div class="box bg-danger col-2"></div>
+        <div class="box align-self-end bg-primary col-2"></div>
+        <div class="box align-self-start bg-success col-2"></div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="box bg-white"></div>
+        </div>
+    </div>
+    <div class="container">
+
+        <!-- Grid System -->
+        <div class="container">
+            <div class="row">
+                <div class="box bg-danger col-6 col-md-4"></div>
+                <div class="box bg-primary col-md-8"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="box bg-white"></div>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="row">
+                <div class="box bg-danger col-2"></div>
+                <div class="box bg-primary col-4"></div>
+                <div class="box bg-success col-6"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="box bg-white"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="box bg-danger col-lg"></div>
+                <div class="box bg-primary col-lg"></div>
+                <div class="box bg-success col-lg"></div>
+            </div>
+        </div>
+
+        <!-- Bootstrap js -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

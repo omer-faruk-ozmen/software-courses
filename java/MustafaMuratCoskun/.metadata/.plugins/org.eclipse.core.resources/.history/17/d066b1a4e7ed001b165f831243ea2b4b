@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		String islemler = """
+				Lütfen yapmak istediðiniz iþlemi yazýp enter'a basýn
+				1) Toplama
+				2) Çýkarma
+				3) Çarpma
+				4) Bölme
+				""";
+
+		System.out.println(islemler);
+		
+		int secim = scanner.nextInt();
+		
+		System.out.print("1.Sayýyý giriniz.");
+		int sayi1 = scanner.nextInt();
+		
+		System.out.print("2.Sayýyý giriniz.");
+		int sayi2 = scanner.nextInt();
+		
+		
+		switch(secim) {
+		case 1:
+			System.out.println(sayi1 + sayi2);
+			break;
+		case 2: 
+			System.out.println(sayi1 - sayi2);
+			break;
+		case 3:
+			System.out.println(sayi1 * sayi2);
+			break;
+		case 4:
+			System.out.println(sayi1 / sayi2);
+			break;
+		}
+	}
+
+}

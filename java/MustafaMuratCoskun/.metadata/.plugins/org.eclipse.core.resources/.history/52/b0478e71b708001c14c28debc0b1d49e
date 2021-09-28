@@ -1,0 +1,16 @@
+
+public class Anakart {
+	private String model;
+	private String uretici;
+	private int yuvaSayisi;
+	private String isletimSistemi;
+
+	public Anakart(String model, String uretici, int yuvaSayisi, String isletimSistemi) {
+		this.model = model;
+		this.uretici = uretici;
+		this.yuvaSayisi = yuvaSayisi;
+		this.isletimSistemi = isletimSistemi;
+
+	}
+
+}

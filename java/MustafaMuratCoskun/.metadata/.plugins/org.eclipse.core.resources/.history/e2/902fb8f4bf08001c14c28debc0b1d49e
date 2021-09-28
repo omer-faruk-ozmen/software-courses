@@ -1,0 +1,41 @@
+class Hayvan {
+	private String isim;
+
+	public Hayvan(String isim) {
+		super();
+		this.isim = isim;
+	}
+
+	public String getIsim() {
+		return isim;
+	}
+
+	public void setIsim(String isim) {
+		this.isim = isim;
+	}
+
+	public String konus() {
+		return "Hayvan Konuşuyor...";
+	}
+}
+
+class Kedi extends Hayvan {
+
+	public Kedi(String isim) {
+		super(isim);
+	}
+
+	@Override
+	public String konus() {
+		return super.konus();
+	}
+
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+
+	}
+
+}

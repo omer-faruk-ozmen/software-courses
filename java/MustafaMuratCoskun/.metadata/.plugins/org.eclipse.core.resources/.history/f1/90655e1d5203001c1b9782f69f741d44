@@ -1,0 +1,8 @@
+
+public class Idman {
+
+	private int burpeeSayisi;
+	private int pushupSayisi;
+	private int situpSayisi;
+	private int squat;
+}

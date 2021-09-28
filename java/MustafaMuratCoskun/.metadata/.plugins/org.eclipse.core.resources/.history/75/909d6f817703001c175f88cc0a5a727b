@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// IS - A
+		
+		Yonetici yonetici1 = new Yonetici("Ömer Faruk Özmen", 2500, "IT");
+		yonetici1.bilgileriGoster();
+
+	}
+
+}

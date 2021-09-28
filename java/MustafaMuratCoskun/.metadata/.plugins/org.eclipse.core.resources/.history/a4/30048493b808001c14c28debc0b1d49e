@@ -1,0 +1,6 @@
+
+public class Bilgisayar {
+	private Monitor monitor;
+	private Kasa kasa;
+	private Anakart anakart;
+}

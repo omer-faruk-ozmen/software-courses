@@ -1,0 +1,9 @@
+
+public class Kopek extends Hayvan {
+	private int disSayisi;
+
+	public Kopek(String isim, int kg, int bacakSayisi, int disSayisi) {
+		super(isim, kg, boy, bacakSayisi);
+	}
+
+}

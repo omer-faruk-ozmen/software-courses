@@ -1,0 +1,19 @@
+package workingWithFiles;
+
+import java.io.File;
+import java.io.IOException;
+
+public class Main {
+
+	public static void main(String[] args) {
+		File file = new File("C:\\Users\\OFO\\Desktop\\Desktop\\software\\java\\EnginDemirog\\Udemy\\File\\students.txt");
+		try {
+			file.createNewFile();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("İdman Programına Hoşgeldiniz...");
+
+		String idmanlar = "Geçerli Hareketler:\n" + "Burpee\n" + "Pushup\n" + "Situp\n" + "Squat";
+		System.out.println(idmanlar);
+		System.out.println("Bir idman oluşturun");
+
+		System.out.println("Burpee Sayısı : ");
+		int burpee = scanner.nextInt();
+		System.out.println("Pushup Sayısı : ");
+		int pushup = scanner.nextInt();
+		System.out.println("Situp Sayısı : ");
+		int Situp = scanner.nextInt();
+		System.out.println("Squat Sayısı : ");
+		int squat = scanner.nextInt();
+
+	}
+
+}

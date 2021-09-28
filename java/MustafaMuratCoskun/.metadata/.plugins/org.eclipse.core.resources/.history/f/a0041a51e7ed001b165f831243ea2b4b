@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		String islemler = """
+				Lütfen yapmak istediðiniz iþlemi seçin
+				1) Toplama
+				2) Çýkarma
+				3) Çarpma
+				4) Bölme
+				""";
+
+		System.out.println(islemler);
+	}
+
+}

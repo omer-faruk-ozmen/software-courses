@@ -1,0 +1,15 @@
+
+public class Yonetici extends Calisan {
+	private int sorumluKisi;
+
+	public Yonetici(String isim, int maas, String departman, int sorumluKisi) {
+		super(isim, maas, departman);
+		this.sorumluKisi = soruumluKisi;
+
+	}
+
+	public void zamYap(int zamMiktari) {
+		System.out.println("Çalışanlara " + zamMiktari + " Tl zam yapıldı");
+	}
+
+}

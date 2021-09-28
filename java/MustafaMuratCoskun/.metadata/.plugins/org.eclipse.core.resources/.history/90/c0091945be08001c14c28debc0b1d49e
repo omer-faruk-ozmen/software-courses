@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Abone abone = new Abone();
+		abone.isim = "Ömer Faruk";
+		abone.bakiye=200;
+		abone.sehir="Kars";
+		abone.dogalgazKullan(200);
+
+	}
+
+}

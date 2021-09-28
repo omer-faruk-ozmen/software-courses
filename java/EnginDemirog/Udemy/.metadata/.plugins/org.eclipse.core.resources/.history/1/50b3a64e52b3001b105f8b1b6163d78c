@@ -1,0 +1,15 @@
+package throwDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		AccountMenager menager = new AccountMenager();
+		System.out.println("Hesap = "+menager.getBalance());
+		menager.deposit(100);
+		System.out.println("Hesap = "+menager.getBalance());
+		menager.withdraw(90);
+		System.out.println("Hesap = "+menager.getBalance());
+
+	}
+
+}

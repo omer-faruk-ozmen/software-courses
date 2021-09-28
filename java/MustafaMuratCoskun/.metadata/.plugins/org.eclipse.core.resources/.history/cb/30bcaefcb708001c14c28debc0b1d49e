@@ -1,0 +1,6 @@
+
+public class Resolution {
+	private int en;
+	private int boy;
+
+}

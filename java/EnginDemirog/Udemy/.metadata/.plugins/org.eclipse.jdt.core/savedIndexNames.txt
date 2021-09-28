@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Users\OFO\Desktop\Desktop\software\java\EnginDemirog\Udemy\.metadata\.plugins\org.eclipse.jdt.core
+3192035434.index
+1615935660.index
+1886439607.index
+2313987325.index
+923901767.index
+319781473.index

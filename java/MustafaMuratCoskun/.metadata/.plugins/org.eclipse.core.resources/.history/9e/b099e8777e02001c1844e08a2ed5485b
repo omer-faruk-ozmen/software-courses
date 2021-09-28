@@ -1,0 +1,19 @@
+
+public class Main {
+	public static void main(String[] args) {
+		Account account = new Account();
+
+		account.setHesapNo("1234");
+		account.setBakiye(1550.0);
+		account.setEmail("omerfarukozmen0@gmail.com");
+		account.setIsim("Ömer Faruk Özmen");
+		account.setTelefon("5154612");
+
+		System.out.println(account.getHesapNo());
+
+		Account account1 = new Account("123456", 1000.0, "Ömer Faruk Özmen", "asdfa@", "2134235");
+		account1.paraCekme(1100);
+
+	}
+
+}

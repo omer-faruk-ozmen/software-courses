@@ -1,0 +1,11 @@
+
+public class Yazilimci extends Calisan {
+	private String diller;
+
+	public Yazilimci(String ad, String soyad, int id,diller) {
+		super(ad, soyad, id);
+		this.diller=diller;
+		// TODO Auto-generated constructor stub
+	}
+
+}

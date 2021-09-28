@@ -1,0 +1,16 @@
+[{
+        "name": "Ömer Faruk Özmen",
+        "department": "Bilişim",
+        "salary": 4000
+    },
+    {
+        "name": "Onur Işık",
+        "department": "Pazarlama",
+        "salary": 5000
+    },
+    {
+        "name": "Fazıl Say",
+        "department": "Developer",
+        "salary": 7000
+    }
+]

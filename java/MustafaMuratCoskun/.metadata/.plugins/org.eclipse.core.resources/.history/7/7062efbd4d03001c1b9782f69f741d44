@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Login {
+	public void boolean login(Hesap hesap) {
+		Scanner scanner = new Scanner(System.in);
+		String kullaniciAdi;
+		String parola;
+		
+		System.out.println("Kullanıcı Adı: ");
+		kullaniciAdi=scanner.nextLine();
+		System.out.println("Parola: ");
+		parola = scanner.nextLine();
+		
+	}
+
+}

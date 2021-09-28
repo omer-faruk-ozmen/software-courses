@@ -1,0 +1,13 @@
+
+public class Main {
+	public static void main(String[] args) {
+		Account account = new Account();
+
+		account.setHesapNo("1234");
+		account.setBakiye(1550.0);
+		account.setEmail("omerfarukozmen0@gmail.com");
+		account.setIsim("Ömer Faruk Özmen");
+		account.setTelefon("5154612");
+	}
+
+}

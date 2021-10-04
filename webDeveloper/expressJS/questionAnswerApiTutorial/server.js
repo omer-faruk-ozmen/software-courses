@@ -1,0 +1,30 @@
+const express = require("express");
+const dotenv = require("dotenv");
+const connectDatabase = require("./helpers/database/connectDatabase")
+const routers = require("./routers/index");
+const customErrorHandler = require("./middlewares/errors/customErrorHandler")
+
+//Environment Veriables
+dotenv.config({
+    path: "./config/env/config.env"
+});
+
+//MongoDb connections
+connectDatabase();
+
+//localhost:8080/api/questions
+//localhost:8080/api/auth
+
+const app = express();
+
+const PORT = process.env.PORT;
+
+//Routers Middleware
+app.use("/api", routers);
+
+//Error Middleware
+app.use(customErrorHandler);
+
+app.listen(PORT, () => {
+    console.log(`App Started on ${PORT} : ${process.env.NODE_ENV}`)
+});

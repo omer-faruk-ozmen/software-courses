@@ -12,10 +12,14 @@ dotenv.config({
 //MongoDb connections
 connectDatabase();
 
+
 //localhost:8080/api/questions
 //localhost:8080/api/auth
 
 const app = express();
+
+//Express - Body Middleware
+app.use(express.json());
 
 const PORT = process.env.PORT;
 

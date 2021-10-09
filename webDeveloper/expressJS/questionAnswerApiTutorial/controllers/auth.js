@@ -1,34 +1,24 @@
 const User = require("../models/user")
 const CustomError = require("../helpers/error/CustomError")
-const register = async(req, res, next) => {
+const asyncErrorWrapper = require("express-async-handler");
+const sendJwtToClient = require("../helpers/authorization/sendJwtToClient")
+
+const register = asyncErrorWrapper(async(req, res, next) => {
     //POST DATA
-    const name = "Selman Özmen";
-    const email = "selmanozmen@gmail.com";
-    const password = "12345";
+
+    const { name, email, password, role } = req.body;
+
+    //Async, await
+    const user = await User.create({
+        name,
+        email,
+        password,
+        role
+    });
+    sendJwtToClient(user, res)
 
 
-    //try - catch
-    try {
-        //Async, await
-        const user = await User.create({
-            name,
-            email,
-            password
-        });
-
-        res
-            .status(200)
-            .json({
-                success: true,
-                data: user
-            });
-    } catch (err) {
-        //asenkton işlemlerde hatanın yakalanması için try catch bloğu kullan
-        return next(err);
-    }
-
-
-};
+});
 const errorTest = (req, res, next) => {
 
 

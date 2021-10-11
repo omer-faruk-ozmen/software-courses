@@ -3,6 +3,7 @@ const dotenv = require("dotenv");
 const connectDatabase = require("./helpers/database/connectDatabase")
 const routers = require("./routers/index");
 const customErrorHandler = require("./middlewares/errors/customErrorHandler")
+const path = require("path")
 
 //Environment Veriables
 dotenv.config({
@@ -28,6 +29,8 @@ app.use("/api", routers);
 
 //Error Middleware
 app.use(customErrorHandler);
+
+app.use(express.static(path.join(__dirname, "public")))
 
 app.listen(PORT, () => {
     console.log(`App Started on ${PORT} : ${process.env.NODE_ENV}`)

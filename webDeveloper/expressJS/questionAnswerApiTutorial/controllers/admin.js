@@ -18,6 +18,23 @@ const getBlockUser = asyncErrorWrapper(async(req, res, next) => {
         })
 });
 
+const getDeleteUser = asyncErrorWrapper(async(req, res, next) => {
+    const { id } = req.params;
+
+    const user = await User.findById(id);
+
+    await user.remove();
+
+    return res.status(200)
+        .json({
+            success: true,
+            message: "Delete Operation Successfull"
+        })
+
+
+});
+
 module.exports = {
-    getBlockUser
+    getBlockUser,
+    getDeleteUser
 };

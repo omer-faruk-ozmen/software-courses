@@ -1,13 +1,13 @@
 import { AlertifyService } from './services/alertify.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { CategoryComponent } from './category/category.component';
 import { ProductComponent } from './product/product.component';
 import { FormsModule } from '@angular/forms';
+import {HttpClientModule} from "@angular/common/http"
 
 @NgModule({
   declarations: [
@@ -17,7 +17,12 @@ import { FormsModule } from '@angular/forms';
     ProductComponent,
     
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule],
+  imports: [
+    BrowserModule, 
+    AppRoutingModule, 
+    FormsModule,
+    HttpClientModule
+  ],
   providers: [AlertifyService],
   bootstrap: [AppComponent],
 })

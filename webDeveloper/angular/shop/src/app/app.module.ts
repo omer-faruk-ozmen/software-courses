@@ -7,7 +7,8 @@ import { NavComponent } from './nav/nav.component';
 import { CategoryComponent } from './category/category.component';
 import { ProductComponent } from './product/product.component';
 import { FormsModule } from '@angular/forms';
-import {HttpClientModule} from "@angular/common/http"
+import {HttpClientModule} from "@angular/common/http";
+import { ProductAddForms1Component } from './product/product-add-forms1/product-add-forms1.component'
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import {HttpClientModule} from "@angular/common/http"
     NavComponent,
     CategoryComponent,
     ProductComponent,
+    ProductAddForms1Component,
     
   ],
   imports: [

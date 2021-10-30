@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Category } from './category';
-import { HttpClient } from '@angular/common/http';
 import { CategoryService } from '../services/category.service';
 
 @Component({

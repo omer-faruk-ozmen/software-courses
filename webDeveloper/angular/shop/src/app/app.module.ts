@@ -1,3 +1,5 @@
+import { LoginGuard } from './login/login.guard';
+import { AccountService } from './services/account.service';
 import { AlertifyService } from './services/alertify.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -6,9 +8,11 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { CategoryComponent } from './category/category.component';
 import { ProductComponent } from './product/product.component';
-import { FormsModule } from '@angular/forms';
-import {HttpClientModule} from "@angular/common/http";
-import { ProductAddForms1Component } from './product/product-add-forms1/product-add-forms1.component'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { ProductAddForms1Component } from './product/product-add-forms1/product-add-forms1.component';
+import { ProductAddForms2Component } from './product/product-add-forms2/product-add-forms2.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -17,15 +21,18 @@ import { ProductAddForms1Component } from './product/product-add-forms1/product-
     CategoryComponent,
     ProductComponent,
     ProductAddForms1Component,
-    
+    ProductAddForms2Component,
+    LoginComponent,
   ],
   imports: [
-    BrowserModule, 
-    AppRoutingModule, 
+    BrowserModule,
+    AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+   
   ],
-  providers: [AlertifyService],
+  providers: [AlertifyService, AccountService, LoginGuard],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

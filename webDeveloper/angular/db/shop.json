@@ -1,13 +1,12 @@
 {
-	"products":[
-{
+  "products": [
+    {
       "id": 1,
       "name": "Laptop",
       "price": 5000,
       "categoryId": 1,
       "description": "Asus ZenBook",
-      "imageUrl":
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1115&q=80"
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1115&q=80"
     },
     {
       "id": 2,
@@ -15,15 +14,49 @@
       "price": 50,
       "categoryId": 2,
       "description": "Logitech",
-      "imageUrl":
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1115&q=80"
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1115&q=80"
+    },
+    {
+      "name": "Telefon",
+      "description": "iPhone 8 Plus",
+      "price": "5000",
+      "categoryId": "2",
+      "imageUrl": "https://productimages.hepsiburada.net/s/31/1500/10352776380466.jpg",
+      "id": 3
+    },
+    {
+      "name": "Buzdolabı",
+      "description": "Arçelik no-frost buzdolabı ",
+      "imageUrl": "https://statics.vestel.com.tr/productimages/20263702_r1_1000_1000.jpg",
+      "price": "9000",
+      "categoryId": "3",
+      "id": 4
+    },
+    {
+      "name": "Masa",
+      "description": "Kitaplıklı çalışma masası",
+      "imageUrl": "https://ayb.akinoncdn.com/products/2021/08/16/74021/71766cc4-1ba7-4406-a327-51cc444b9ee9_size780x780_quality60_cropCenter.jpg",
+      "price": "500",
+      "categoryId": "4",
+      "id": 5
     }
-  
-],
-"categories":[
-{"id":1,"name":"Bilgisayar"},
-{"id":2,"name":"Elektronik"},
-{"id":3,"name":"Beyaz Eşya"},
-{"id":4,"name":"Mobilya"}
-]
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Bilgisayar"
+    },
+    {
+      "id": 2,
+      "name": "Elektronik"
+    },
+    {
+      "id": 3,
+      "name": "Beyaz Eşya"
+    },
+    {
+      "id": 4,
+      "name": "Mobilya"
+    }
+  ]
 }

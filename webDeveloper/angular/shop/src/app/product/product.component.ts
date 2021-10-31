@@ -20,10 +20,12 @@ export class ProductComponent implements OnInit {
 
   products: Product[] = [];
   ngOnInit() {
-    this.activatedRoute.params.subscribe(params => {
-      this.productService.getProducts(params["categoryId"]).subscribe(data => {
-        this.products = data;
-      });
+    this.activatedRoute.params.subscribe((params) => {
+      this.productService
+        .getProducts(params['categoryId'])
+        .subscribe((data) => {
+          this.products = data;
+        });
     });
   }
   addToCart(product: any) {

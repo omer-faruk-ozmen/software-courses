@@ -1,0 +1,7 @@
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\TypesAndVeriables\bin\Debug\TypesAndVeriables.exe.config
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\TypesAndVeriables\bin\Debug\TypesAndVeriables.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\TypesAndVeriables\bin\Debug\TypesAndVeriables.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\TypesAndVeriables\obj\Debug\TypesAndVeriables.csproj.AssemblyReference.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\TypesAndVeriables\obj\Debug\TypesAndVeriables.csproj.CoreCompileInputs.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\TypesAndVeriables\obj\Debug\TypesAndVeriables.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\TypesAndVeriables\obj\Debug\TypesAndVeriables.pdb

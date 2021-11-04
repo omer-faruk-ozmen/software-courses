@@ -1,0 +1,7 @@
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\PrimeNumber\bin\Debug\PrimeNumber.exe.config
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\PrimeNumber\bin\Debug\PrimeNumber.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\PrimeNumber\bin\Debug\PrimeNumber.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\PrimeNumber\obj\Debug\PrimeNumber.csproj.AssemblyReference.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\PrimeNumber\obj\Debug\PrimeNumber.csproj.CoreCompileInputs.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\PrimeNumber\obj\Debug\PrimeNumber.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\PrimeNumber\obj\Debug\PrimeNumber.pdb

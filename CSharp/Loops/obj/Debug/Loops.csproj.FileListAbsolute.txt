@@ -1,0 +1,7 @@
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Loops\bin\Debug\Loops.exe.config
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Loops\bin\Debug\Loops.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Loops\bin\Debug\Loops.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Loops\obj\Debug\Loops.csproj.CoreCompileInputs.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Loops\obj\Debug\Loops.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Loops\obj\Debug\Loops.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Loops\obj\Debug\Loops.csproj.AssemblyReference.cache

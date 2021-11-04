@@ -1,0 +1,7 @@
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Arrays\bin\Debug\Arrays.exe.config
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Arrays\bin\Debug\Arrays.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Arrays\bin\Debug\Arrays.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Arrays\obj\Debug\Arrays.csproj.AssemblyReference.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Arrays\obj\Debug\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Arrays\obj\Debug\Arrays.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Arrays\obj\Debug\Arrays.pdb

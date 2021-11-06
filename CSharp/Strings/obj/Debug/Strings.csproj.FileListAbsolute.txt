@@ -1,0 +1,7 @@
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Strings\bin\Debug\Strings.exe.config
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Strings\bin\Debug\Strings.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Strings\bin\Debug\Strings.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Strings\obj\Debug\Strings.csproj.AssemblyReference.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Strings\obj\Debug\Strings.csproj.CoreCompileInputs.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Strings\obj\Debug\Strings.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Strings\obj\Debug\Strings.pdb

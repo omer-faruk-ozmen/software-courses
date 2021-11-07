@@ -4,3 +4,4 @@ C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Interfaces\bin\Debug\Inter
 C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
 C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Interfaces\obj\Debug\Interfaces.exe
 C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Interfaces\obj\Debug\Interfaces.csproj.AssemblyReference.cache

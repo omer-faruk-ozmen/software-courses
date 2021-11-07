@@ -10,6 +10,30 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
+            InterfacesIntro();
+
+            InterfacesPolymorphismDemo();
+
+            ICustomerDal[] customerDals = new ICustomerDal[3] {new SqlServerCustomerDal(), new OracleCustomerDal(),new MySqlCustomerDal()};
+
+            foreach (var customerDal in customerDals)
+            {
+                customerDal.Add();
+            }
+
+            Console.ReadLine();
+        }
+
+        private static void InterfacesPolymorphismDemo()
+        {
+            CustomerMenager customerMenager = new CustomerMenager();
+
+            customerMenager.Add(new OracleCustomerDal());
+            customerMenager.Add(new SqlServerCustomerDal());
+        }
+
+        private static void InterfacesIntro()
+        {
             PersonMenager menager = new PersonMenager();
 
             Customer customer = new Customer
@@ -30,8 +54,6 @@ namespace Interfaces
             menager.Add(customer);
 
             menager.Add(student);
-
-            Console.ReadLine();
         }
     }
 
@@ -56,6 +78,12 @@ namespace Interfaces
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Departmant { get; set; }
+    }
+    class Worker : IPerson
+    {
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
     }
 
     class PersonMenager

@@ -1,0 +1,6 @@
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\InterfacesDemo\bin\Debug\InterfacesDemo.exe.config
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\InterfacesDemo\bin\Debug\InterfacesDemo.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\InterfacesDemo\bin\Debug\InterfacesDemo.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\InterfacesDemo\obj\Debug\InterfacesDemo.csproj.CoreCompileInputs.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\InterfacesDemo\obj\Debug\InterfacesDemo.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\InterfacesDemo\obj\Debug\InterfacesDemo.pdb

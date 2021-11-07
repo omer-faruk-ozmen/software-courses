@@ -4,3 +4,4 @@ C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Classes\bin\Debug\Classes.
 C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
 C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Classes\obj\Debug\Classes.exe
 C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Classes\obj\Debug\Classes.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\Classes\obj\Debug\Classes.csproj.AssemblyReference.cache

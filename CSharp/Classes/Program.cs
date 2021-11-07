@@ -28,7 +28,7 @@ namespace Classes
                 Id=2,City="Kars",FirstName="Ömer Faruk",LastName = "Özmen"
             };
             Console.WriteLine(customer2.City);
-
+            Console.WriteLine(customer2.FirstName);
 
 
 

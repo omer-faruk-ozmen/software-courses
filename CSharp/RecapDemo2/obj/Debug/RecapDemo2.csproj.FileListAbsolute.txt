@@ -1,0 +1,6 @@
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\RecapDemo2\bin\Debug\RecapDemo2.exe.config
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\RecapDemo2\bin\Debug\RecapDemo2.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\RecapDemo2\bin\Debug\RecapDemo2.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\RecapDemo2\obj\Debug\RecapDemo2.csproj.CoreCompileInputs.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\RecapDemo2\obj\Debug\RecapDemo2.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\RecapDemo2\obj\Debug\RecapDemo2.pdb

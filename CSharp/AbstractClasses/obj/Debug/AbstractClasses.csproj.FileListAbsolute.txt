@@ -1,0 +1,7 @@
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\AbstractClasses\bin\Debug\AbstractClasses.exe.config
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\AbstractClasses\bin\Debug\AbstractClasses.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\AbstractClasses\bin\Debug\AbstractClasses.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\AbstractClasses\obj\Debug\AbstractClasses.csproj.AssemblyReference.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\AbstractClasses\obj\Debug\AbstractClasses.csproj.CoreCompileInputs.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\AbstractClasses\obj\Debug\AbstractClasses.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\AbstractClasses\obj\Debug\AbstractClasses.pdb

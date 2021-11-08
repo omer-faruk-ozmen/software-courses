@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AccessModifiers;
 
 namespace AccessModifiersDemo
 {
@@ -10,7 +11,7 @@ namespace AccessModifiersDemo
     {
         static void Main(string[] args)
         {
-
+            CourseDemo courseDemo = new CourseDemo();
         }
     }
 }

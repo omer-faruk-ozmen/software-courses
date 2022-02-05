@@ -1,0 +1,7 @@
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\MyDictionary\obj\Debug\MyDictionary.csproj.AssemblyReference.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\MyDictionary\obj\Debug\MyDictionary.csproj.CoreCompileInputs.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\MyDictionary\bin\Debug\MyDictionary.exe.config
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\MyDictionary\bin\Debug\MyDictionary.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\MyDictionary\bin\Debug\MyDictionary.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\MyDictionary\obj\Debug\MyDictionary.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\MyDictionary\obj\Debug\MyDictionary.pdb

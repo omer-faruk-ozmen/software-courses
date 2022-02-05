@@ -1,0 +1,6 @@
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\OOP1\Collections\bin\Debug\Collections.exe.config
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\OOP1\Collections\bin\Debug\Collections.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\OOP1\Collections\bin\Debug\Collections.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\OOP1\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\OOP1\Collections\obj\Debug\Collections.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\OOP1\Collections\obj\Debug\Collections.pdb

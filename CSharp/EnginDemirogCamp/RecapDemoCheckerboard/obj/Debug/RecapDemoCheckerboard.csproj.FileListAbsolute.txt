@@ -1,0 +1,10 @@
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\RecapDemoCheckerboard\bin\Debug\RecapDemoCheckerboard.exe.config
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\RecapDemoCheckerboard\bin\Debug\RecapDemoCheckerboard.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\RecapDemoCheckerboard\bin\Debug\RecapDemoCheckerboard.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\RecapDemoCheckerboard\obj\Debug\RecapDemoCheckerboard.csproj.AssemblyReference.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\RecapDemoCheckerboard\obj\Debug\RecapDemoCheckerboard.Form1.resources
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\RecapDemoCheckerboard\obj\Debug\RecapDemoCheckerboard.Properties.Resources.resources
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\RecapDemoCheckerboard\obj\Debug\RecapDemoCheckerboard.csproj.GenerateResource.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\RecapDemoCheckerboard\obj\Debug\RecapDemoCheckerboard.csproj.CoreCompileInputs.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\RecapDemoCheckerboard\obj\Debug\RecapDemoCheckerboard.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\RecapDemoCheckerboard\obj\Debug\RecapDemoCheckerboard.pdb

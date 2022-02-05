@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreditApplicationManager.cs" />
+    <Compile Include="DatabaseLoggerService.cs" />
+    <Compile Include="FileLoggerService.cs" />
+    <Compile Include="HouseCreditManager.cs" />
+    <Compile Include="ILoggerService.cs" />
+    <Compile Include="PersonalFinanceCreditManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransportCreditManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Compile Include="ICreditManager.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

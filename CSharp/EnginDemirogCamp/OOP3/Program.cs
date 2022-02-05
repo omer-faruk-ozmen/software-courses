@@ -10,6 +10,28 @@ namespace OOP3
     {
         static void Main(string[] args)
         {
+            ICreditManager transportCreditManager = new TransportCreditManager();
+ 
+            ICreditManager personalFinanceCreditManager = new PersonalFinanceCreditManager();
+
+            ICreditManager houseCreditManager = new HouseCreditManager();
+
+            CreditApplicationManager creditApplication = new CreditApplicationManager();
+
+
+            ILoggerService databaseLoggerService = new DatabaseLoggerService();
+            ILoggerService fileLoggerService = new DatabaseLoggerService();
+
+            creditApplication.Application(personalFinanceCreditManager,databaseLoggerService);
+
+            creditApplication.Application(transportCreditManager, new FileLoggerService());
+
+
+            List<ICreditManager> credits = new List<ICreditManager>() { personalFinanceCreditManager,transportCreditManager};
+
+            creditApplication.CreditPreInformation(credits);
+
+            Console.ReadLine();
         }
     }
 }

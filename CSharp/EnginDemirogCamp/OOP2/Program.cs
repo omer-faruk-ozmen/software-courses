@@ -18,8 +18,19 @@ namespace OOP2
 
             CoorporateCustomer customer2 = new CoorporateCustomer();
             customer2.CustomerNumber = "123455";
-            customer2.CooporateName = "Seç Market";
+            customer2.CooporateName = "TBX";
             customer2.TaxNumber = "123456789";
+
+            Customer customer3 = new IndividualCustomer();
+
+            Customer customer4 = new CoorporateCustomer();
+
+            CustomerManager customerManager = new CustomerManager();
+            customerManager.Add(customer);
+
+
+
+
         }
     }
 }

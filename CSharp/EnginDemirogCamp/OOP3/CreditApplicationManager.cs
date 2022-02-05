@@ -8,10 +8,13 @@ namespace OOP3
 {
     class CreditApplicationManager
     {
-        public void Application(ICreditManager creditManager, ILoggerService loggerService)
+        public void Application(ICreditManager creditManager, List<ILoggerService> loggerServices)
         {
             creditManager.Calculate();
-            loggerService.Log();
+            foreach(var loggerService in loggerServices)
+            {
+                loggerService.Log();
+            }
         }
 
         public void CreditPreInformation(List<ICreditManager> credits)

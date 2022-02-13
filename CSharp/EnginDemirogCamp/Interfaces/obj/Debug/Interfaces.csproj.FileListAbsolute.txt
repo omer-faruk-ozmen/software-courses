@@ -1,0 +1,7 @@
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\Interfaces\bin\Debug\Interfaces.exe.config
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\Interfaces\bin\Debug\Interfaces.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\Interfaces\obj\Debug\Interfaces.csproj.AssemblyReference.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\Interfaces\obj\Debug\Interfaces.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\Interfaces\obj\Debug\Interfaces.pdb

@@ -1,0 +1,7 @@
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\InterfaceAbstractDemo\obj\Debug\InterfaceAbstractDemo.csproj.AssemblyReference.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\InterfaceAbstractDemo\obj\Debug\InterfaceAbstractDemo.csproj.CoreCompileInputs.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\InterfaceAbstractDemo\bin\Debug\InterfaceAbstractDemo.exe.config
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\InterfaceAbstractDemo\bin\Debug\InterfaceAbstractDemo.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\InterfaceAbstractDemo\bin\Debug\InterfaceAbstractDemo.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\InterfaceAbstractDemo\obj\Debug\InterfaceAbstractDemo.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\InterfaceAbstractDemo\obj\Debug\InterfaceAbstractDemo.pdb

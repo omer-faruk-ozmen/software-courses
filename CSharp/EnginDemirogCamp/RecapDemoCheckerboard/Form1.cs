@@ -45,8 +45,6 @@ namespace RecapDemoCheckerboard
                 }
                 top += 50;
                 left = 0;
-                
-                
             }
 
             

@@ -1,0 +1,7 @@
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\GameProjectDemo\bin\Debug\GameProjectDemo.exe.config
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\GameProjectDemo\bin\Debug\GameProjectDemo.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\GameProjectDemo\bin\Debug\GameProjectDemo.pdb
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\GameProjectDemo\obj\Debug\GameProjectDemo.csproj.AssemblyReference.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\GameProjectDemo\obj\Debug\GameProjectDemo.csproj.CoreCompileInputs.cache
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\GameProjectDemo\obj\Debug\GameProjectDemo.exe
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\EnginDemirogCamp\GameProjectDemo\obj\Debug\GameProjectDemo.pdb

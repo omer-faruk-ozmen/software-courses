@@ -6,13 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 
 namespace DataAccess.Concrete.InMemory
 {
     public class InMemoryProductDal : IProductDal
     {
         //Global değişkenler _ ile verilir.
-        
+
         List<Product> _products;
 
         public InMemoryProductDal()
@@ -66,6 +67,12 @@ namespace DataAccess.Concrete.InMemory
         }
 
         public Product Get(Expression<Func<Product, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
+
+        public List<ProductDetailDto> GetProductDetails()
         {
             throw new NotImplementedException();
         }

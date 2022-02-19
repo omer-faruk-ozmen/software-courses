@@ -27,22 +27,34 @@ namespace ConsoleUI
         {
             ProductManager productManager = new ProductManager(new EfProductDal());
 
-            foreach (var product in productManager.GetProductDetails())
+            var result = productManager.GetProductDetails();
+
+            if (result.Success==true)
             {
-                Console.WriteLine(product.ProductName +" "+product.CategoryName );
+                foreach (var product in result.Data)
+                {
+                    Console.WriteLine(product.ProductName + " / " + product.CategoryName);
+                }
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
             }
 
+            /*
+
             Console.WriteLine("----------Filtered category id----------");
-            foreach (var product in productManager.GetAllByCategoryId(id: 1))
+            foreach (var product in productManager.GetAllByCategoryId(id: 1).Data)
             {
                 Console.WriteLine(product.ProductName);
             }
 
             Console.WriteLine("----------Filtered Unit Price----------");
-            foreach (var product in productManager.GetByUnitPrice(min: 50, max: 500))
+            foreach (var product in productManager.GetByUnitPrice(min: 50, max: 500).Data)
             {
                 Console.WriteLine(product.ProductName);
             }
+            */
         }
     }
 }

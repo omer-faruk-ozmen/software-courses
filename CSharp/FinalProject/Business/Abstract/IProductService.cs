@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Core.Utilities.Results;
 using Entities.Concrete;
 using Entities.DTOs;
 
@@ -10,14 +11,14 @@ namespace Business.Abstract
 {
     public interface IProductService
     {
-        void Add(Product product);
-        void Delete(Product product);
-        void Update(Product product);
-        List<Product> GetAll();
-        List<Product> GetAllByCategoryId(int id);
-        List<Product> GetByUnitPrice(decimal min, decimal max);
-
-        List<ProductDetailDto> GetProductDetails();
+        IResult Add(Product product);
+        IResult Delete(Product product);
+        IResult Update(Product product);
+        IDataResult<List<Product>> GetAll();
+        IDataResult<List<Product>> GetAllByCategoryId(int id);
+        IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max);
+        IDataResult<Product> GetById(int productId);
+        IDataResult<List<ProductDetailDto>> GetProductDetails();
 
     }
 }

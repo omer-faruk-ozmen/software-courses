@@ -19,6 +19,16 @@ namespace Business.Concrete
             _productDal = productDal;
         }
 
+        public void Add(Product product)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Delete(Product product)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Product> GetAll()
         {
             //Access Codes
@@ -33,6 +43,11 @@ namespace Business.Concrete
         public List<Product> GetByUnitPrice(decimal min, decimal max)
         {
             return _productDal.GetAll(p => p.UnitPrice >= min && p.UnitPrice <= max);
+        }
+
+        public void Update(Product product)
+        {
+            throw new NotImplementedException();
         }
     }
 }

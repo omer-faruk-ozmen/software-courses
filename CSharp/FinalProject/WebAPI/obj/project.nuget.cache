@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pMg3agjhG4rNr8mj/RzKGHwmQP0d92+MBtDhYthLquPpkV1P3fUGBTwKvJi93fHSJ/CdTUbTdUOjdhvix1KXwQ==",
+  "dgSpecHash": "4uilBTekHNu8lamLWJEM6FoxJmGz6mNGXRMvzUIz8UrtGQU79I/W5eshYjZzgMCEUjIcT6iJYa0nBRRpjHrhZQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ofo\\Desktop\\Desktop\\Software\\Learning\\CSharp\\FinalProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\ofo\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\ofo\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\ofo\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\ofo\\.nuget\\packages\\log4net\\2.0.14\\log4net.2.0.14.nupkg.sha512",
     "C:\\Users\\ofo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.12\\microsoft.aspnetcore.authentication.jwtbearer.3.1.12.nupkg.sha512",
     "C:\\Users\\ofo\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\ofo\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

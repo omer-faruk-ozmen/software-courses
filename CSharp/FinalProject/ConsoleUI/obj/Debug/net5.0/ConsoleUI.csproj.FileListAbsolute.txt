@@ -79,3 +79,7 @@ C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\ConsoleUI\bin
 C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
 C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\ConsoleUI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.dll
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.Net.Http.Headers.dll

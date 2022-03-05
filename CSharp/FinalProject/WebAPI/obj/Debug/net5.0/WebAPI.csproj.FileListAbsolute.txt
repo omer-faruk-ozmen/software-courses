@@ -69,3 +69,10 @@ C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\De
 C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
 C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

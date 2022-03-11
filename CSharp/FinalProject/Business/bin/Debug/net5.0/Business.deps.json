@@ -15,7 +15,8 @@
           "Entities": "1.0.0",
           "FluentValidation": "10.3.6",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
-          "Microsoft.Extensions.DependencyInjection": "6.0.0"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "log4net": "2.0.14"
         },
         "runtime": {
           "Business.dll": {}

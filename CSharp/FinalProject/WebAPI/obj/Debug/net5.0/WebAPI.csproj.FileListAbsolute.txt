@@ -77,3 +77,5 @@ C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\De
 C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\Debug\net5.0\log4net.dll
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\Debug\net5.0\MicroKnights.Log4NetAdoNetAppender.dll
+C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\bin\Debug\net5.0\log4net.config

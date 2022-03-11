@@ -59,7 +59,7 @@ namespace Business.Concrete
         }
 
         [CacheAspect]
-        //[LogAspect(typeof(FileLogger))]
+       
         public IDataResult<List<Product>> GetAll()
         {
             if (DateTime.Now.Hour == 02)
@@ -69,6 +69,9 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(), Messages.ProductsListed);
         }
 
+        
+        [CacheAspect(duration:30)]
+        //[LogAspect(typeof(FileLogger))]
         public IDataResult<List<Product>> GetAllByCategoryId(int id)
         {
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryId == id),
@@ -76,7 +79,8 @@ namespace Business.Concrete
         }
 
         [CacheAspect(10)]
-        [PerformanceAspect(5)]
+        //[LogAspect(typeof(FileLogger))]
+        //[PerformanceAspect(5)]
         public IDataResult<Product> GetById(int productId)
         {
             return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == productId));

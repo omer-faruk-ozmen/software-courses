@@ -4,5 +4,6 @@
     <NameOfLastUsedPublishProfile>C:\Users\ofo\Desktop\Desktop\Software\Learning\CSharp\FinalProject\WebAPI\Properties\PublishProfiles\IISProfile.pubxml</NameOfLastUsedPublishProfile>
     <Controller_SelectedScaffolderID>ApiControllerEmptyScaffolder</Controller_SelectedScaffolderID>
     <Controller_SelectedScaffolderCategoryPath>root/Common/Api</Controller_SelectedScaffolderCategoryPath>
+    <ShowAllFiles>true</ShowAllFiles>
   </PropertyGroup>
 </Project>

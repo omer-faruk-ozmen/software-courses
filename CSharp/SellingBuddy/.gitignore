@@ -1,0 +1,3 @@
+*.json
+Services/CatalogService/CatalogServiceApi/bin
+Services/CatalogService/CatalogServiceApi/obj

@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace EventBus.Base.Events
@@ -12,19 +11,23 @@ namespace EventBus.Base.Events
     {
 
         [JsonProperty]
-        public Guid Id { get; private set; }
-        [JsonProperty]
-        public DateTime CreatedDate { get;private set; }
+        public Guid OrderId { get; private set; }
 
+        [JsonProperty]
+        public DateTime CreatedDate { get; private set; }
+
+
+        
         public IntegrationEvent()
         {
-            Id = Guid.NewGuid();
+            OrderId = Guid.NewGuid();
             CreatedDate = DateTime.Now;
         }
-        [Newtonsoft.Json.JsonConstructor]
-        public IntegrationEvent(Guid id, DateTime createdDate)
+
+        [JsonConstructor]
+        public IntegrationEvent(Guid orderId, DateTime createdDate)
         {
-            Id = id;
+            OrderId = orderId;
             CreatedDate = createdDate;
         }
     }

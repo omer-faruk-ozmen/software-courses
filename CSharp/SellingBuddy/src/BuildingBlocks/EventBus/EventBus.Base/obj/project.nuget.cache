@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7b9tFOVJMAVDEGdNXbfG19y2aotHEqIPKMP45MSboLGeXHaWr0+kAC6bbwGRnqy274RpAOPN+gn8+lGRs3RHKw==",
+  "dgSpecHash": "Ncu3Nuv/ON62l1CswHQO6m5DEtIzJLEC9m2u4ZjvRpdTL08lnOKXyW1OvBs7nF0Xoi1zEYPXmx8yCdnRN7ywLg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ofo\\Desktop\\Desktop\\Software\\Learning\\CSharp\\SellingBuddy\\src\\BuildingBlocks\\EventBus\\EventBus.Base\\EventBus.Base.csproj",
   "expectedPackageFiles": [

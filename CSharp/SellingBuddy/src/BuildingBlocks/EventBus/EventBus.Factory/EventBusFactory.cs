@@ -1,12 +1,12 @@
-﻿using System;
+﻿using EventBus.AzureServiceBus;
+using EventBus.Base;
+using EventBus.Base.Abstraction;
+using EventBus.RabbitMQ;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EventBus.AzureServiceBus;
-using EventBus.Base;
-using EventBus.Base.Abstraction;
-using EventBus.RabbitMQ;
 
 namespace EventBus.Factory
 {
@@ -22,4 +22,3 @@ namespace EventBus.Factory
         }
     }
 }
-

@@ -1,13 +1,18 @@
-﻿using System;
+﻿using EventBus.Base.Abstraction;
+using EventBus.Base.Events;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EventBus.Base.Abstraction;
-using EventBus.Base.Events;
 
 namespace EventBus.Base.SubManagers
 {
+
+   
+
+
+
     public class InMemoryEventBusSubscriptionManager : IEventBusSubscriptionManager
     {
         private readonly Dictionary<string, List<SubscriptionInfo>> _handlers;
@@ -123,7 +128,7 @@ namespace EventBus.Base.SubManagers
 
         public Type GetEventTypeByName(string eventName) => _eventTypes.SingleOrDefault(t => t.Name == eventName);
 
-        public string GetEventKey<T>() where T : IntegrationEvent
+        public string GetEventKey<T>() where T:IntegrationEvent
         {
             string eventName = typeof(T).Name;
             return eventNameGetter(eventName);

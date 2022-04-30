@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xBr9N8U9B8x0jTu86Fwyy7QmyiR5tS3GLgZKbTj9mHt8+oLfqiQ+i5RcCOzcJO2lQ1dSoJ9KVwsMOXCSJRXuvA==",
+  "dgSpecHash": "wlDuTxCEYB9FVRTSLIKFlglw6zzw5wR9s0zZFeBrnU3cEe/X9YP9v1HcoEaI0QJ048eYQMZiLOKmMDo5TPbq7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\ofo\\Desktop\\Desktop\\Software\\Learning\\CSharp\\SellingBuddy\\src\\BuildingBlocks\\EventBus\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj",
   "expectedPackageFiles": [

@@ -2,6 +2,10 @@
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
+		<DockerComposeProjectPath>..\..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
+		<UserSecretsId>06c84954-ae89-4b7c-a97f-debedd5d9f8a</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<DockerfileContext>..\..\..\..</DockerfileContext>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -20,6 +24,17 @@
 		<PackageReference Include="Serilog.Sinks.Graylog" Version="2.3.0" />
 
 		<PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Pics\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="Pics\**">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
 	</ItemGroup>
 
 </Project>

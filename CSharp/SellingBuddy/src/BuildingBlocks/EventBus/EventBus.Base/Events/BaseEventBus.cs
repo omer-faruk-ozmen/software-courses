@@ -1,12 +1,12 @@
-﻿using System;
+﻿using EventBus.Base.Abstraction;
+using EventBus.Base.SubManagers;
+using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EventBus.Base.Abstraction;
-using EventBus.Base.SubManagers;
-using Microsoft.Extensions.DependencyInjection;
-using Newtonsoft.Json;
 
 namespace EventBus.Base.Events
 {

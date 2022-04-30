@@ -6,7 +6,7 @@ using EventBus.UnitTest.Events.EventHandlers;
 using EventBus.UnitTest.Events.Events;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using NUnit.Framework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RabbitMQ.Client;
 
 namespace EventBus.UnitTest
@@ -21,7 +21,7 @@ namespace EventBus.UnitTest
             services.AddLogging(configure => configure.AddConsole());
         }
 
-        [Test]
+        [TestMethod]
         public void subscribe_event_on_rabbitmq_test()
         {
             services.AddSingleton<IEventBus>(sp =>
@@ -38,7 +38,7 @@ namespace EventBus.UnitTest
             eventBus.Subscribe<OrderCreatedIntegrationEvent, OrderCreatedIntegrationEventHandler>();
             //eventBus.UnSubscribe<OrderCreatedIntegrationEvent, OrderCreatedIntegrationEventHandler>();
         }
-        [Test]
+        [TestMethod]
         public void subscribe_event_on_azure_test()
         {
             services.AddSingleton<IEventBus>(sp =>
@@ -57,7 +57,7 @@ namespace EventBus.UnitTest
             Task.Delay(2000).Wait();
         }
 
-        [Test]
+        [TestMethod]
         public void send_message_to_rabbitmq_test()
         {
             services.AddSingleton<IEventBus>(sp =>
@@ -73,7 +73,7 @@ namespace EventBus.UnitTest
 
             eventBus.Publish(new OrderCreatedIntegrationEvent(1));
         }
-        [Test]
+        [TestMethod]
         public void send_message_to_azure_test()
         {
             services.AddSingleton<IEventBus>(sp =>
